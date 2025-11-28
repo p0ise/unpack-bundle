@@ -7,7 +7,8 @@
   },
   "scripts": {
     "start": "node bin/unpack-bundle.js",
-    "demo:paths": "node examples/inspect-paths.js ./examples/browserify-bundle.js ./examples/amd-bundle.js"
+    "demo:paths": "node examples/inspect-paths.js ./examples/browserify-bundle.js ./examples/amd-bundle.js",
+    "release": "standard-version"
   },
   "keywords": [
     "browserify",
@@ -28,7 +29,10 @@
     "unpack",
     "plugins",
     "examples",
-    "README.md"
+    "README.md",
+    "README.en.md",
+    "CONTRIBUTING.md",
+    "CONTRIBUTING.en.md"
   ],
   "dependencies": {
     "@babel/core": "^7.25.2",
@@ -36,5 +40,8 @@
     "@babel/parser": "^7.25.3",
     "@babel/traverse": "^7.25.3",
     "@babel/types": "^7.25.2"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
   }
 }
