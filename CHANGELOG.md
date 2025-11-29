@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/p0ise/unpack-bundle/compare/v1.1.0...v1.1.1) (2025-11-29)
+
+
+### Bug Fixes
+
+* avoid extra parent dirs when merging FileTree branches ([6ea0e3c](https://github.com/p0ise/unpack-bundle/commit/6ea0e3cb1f6559ed6e2b7f99f83e40140aae471a))
+
 ## 1.1.0 (2025-11-28)
 
 
